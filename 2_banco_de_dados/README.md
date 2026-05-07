@@ -6,7 +6,7 @@ Script SQL para criação da estrutura do banco de dados no DBeaver (PostgreSQL)
 
 ## Modelo de dados
 
-O banco segue o modelo **estrela (star schema)**, com tabelas de fato no centro e tabelas dimensão ao redor. Esse padrão é o mais comum em projetos de Business Intelligence e facilita consultas analíticas com `JOIN`.
+O banco segue o modelo **estrela (star schema)**, com tabelas de fato no centro e tabelas dimensão ao redor. Esse padrão é o mais comum em projetos de Business Intelligence e facilita consultas analíticas com `JOIN`. Como é um ambiente simulado torna-se mais simples a aplicação desse esquema, no banco de dados real o número de tabelas e a descentralização de empresas responsaveis traz uma maior dificuldade na manipulação desses esquemas.
 
 ```
 dim_equipes ◄─── dim_bairros ◄─── pacientes
