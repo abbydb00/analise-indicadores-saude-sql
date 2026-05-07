@@ -26,7 +26,7 @@ O objetivo é demonstrar as mesmas habilidades técnicas utilizadas no trabalho 
 analise-indicadores-saude-sql/
 │
 ├── dados/
-│   ├── gerar_dados.py          # Script Python que gera os CSVs sintéticos
+│   ├── gerador_fake_data_sus.py          # Script Python que gera os CSVs sintéticos
 │   ├── pacientes.csv
 │   ├── atendimentos.csv
 │   ├── procedimentos.csv
@@ -35,10 +35,13 @@ analise-indicadores-saude-sql/
 │   ├── dim_cbo.csv
 │   ├── dim_ciap.csv
 │   ├── dim_sigtap.csv
-│   └── dim_profissionais.csv
+│   ├── dim_profissionais.csv
+│   └── README.md
 │
 ├── sql/
-│   └── schema.sql              # Script de criação das tabelas no DBeaver
+│   ├── criacaobanco.sql              # Script de criação das tabelas no DBeaver
+│   ├── diagrama_er.png
+│   └── README.md
 │
 └── README.md
 ```
