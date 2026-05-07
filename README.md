@@ -72,7 +72,7 @@ O banco segue uma estrutura **Fato + Dimensão** (esquema estrela), comum em pro
 
 ```bash
 pip install faker pandas
-python dados/gerar_dados.py
+python dados/gerador_fake_data_sus.py
 ```
 
 **2. Criar as tabelas no DBeaver**
