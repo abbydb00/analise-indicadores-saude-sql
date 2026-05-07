@@ -125,7 +125,7 @@ for id_paciente in range(1, NUM_PACIENTES + 1):
 
     # Data de nascimento entre 0 e 85 anos
     data_nascimento = fake.date_of_birth(minimum_age=0, maximum_age=85)
-    idade = 2023 - data_nascimento.year
+    idade = 2026 - data_nascimento.year
 
     # Cada paciente mora em um bairro da lista
     id_bairro = random.randint(1, len(lista_bairros))
@@ -136,7 +136,7 @@ for id_paciente in range(1, NUM_PACIENTES + 1):
     # Regra de negócio: mulheres entre 15 e 45 anos têm 25% de chance de estar grávidas
     if sexo == 'F' and 15 <= idade <= 45:
         if random.randint(1, 100) <= 25:
-            dum = fake.date_between(start_date=date(2022, 8, 1), end_date=date(2023, 3, 31))
+            dum = fake.date_between(start_date=date(2025, 8, 1), end_date=date(2026, 3, 31))
 
     pacientes.append([id_paciente, cns, nome, data_nascimento, sexo, idade, id_bairro, dum])
 
@@ -152,9 +152,9 @@ id_procedimento_atual = 1
 
 for id_atendimento in range(1, NUM_ATENDIMENTOS + 1):
 
-    # Sorteia um paciente e uma data dentro do 1º semestre de 2023
+    # Sorteia um paciente e uma data dentro do 1º semestre de 2026
     id_paciente       = random.randint(1, NUM_PACIENTES)
-    data_atendimento  = fake.date_between(start_date=date(2023, 1, 1), end_date=date(2023, 6, 30))
+    data_atendimento  = fake.date_between(start_date=date(2026, 1, 1), end_date=date(2026, 6, 30))
 
     # Sorteia qual profissional fez o atendimento
     # Médicos e enfermeiros têm mais peso porque são maioria na UBS
