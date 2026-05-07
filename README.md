@@ -1,6 +1,6 @@
 # Análise de Indicadores de Saúde — Previne Brasil
 
-Projeto desenvolvido como parte das atividades na **Prefeitura de Lajeado - RS**, onde trabalhei com extração e análise de dados de saúde para monitoramento de indicadores federais do programa **Previne Brasil** do Ministério da Saúde.
+Projeto desenvolvido como parte das atividades de uma **Prefeitura**, onde trabalhei com extração e análise de dados de saúde para monitoramento e manutenção de indicadores federais do programa **Previne Brasil** do Ministério da Saúde.
 
 ---
 
