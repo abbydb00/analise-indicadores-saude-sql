@@ -78,7 +78,7 @@ python dados/gerar_dados.py
 **2. Criar as tabelas no DBeaver**
 
 - Abra o DBeaver e conecte em um banco PostgreSQL
-- Execute o script `sql/schema.sql`
+- Execute o script `sql/criacaobanco.sql`
 
 **3. Importar os CSVs**
 
