@@ -1,6 +1,6 @@
 # 2 — Banco de Dados
 
-Script SQL para criação da estrutura do banco de dados no DBeaver, pronto para receber os CSVs gerados pelo script da pasta anterior.
+Script SQL para criação da estrutura do banco de dados no DBeaver (PostgreSQL), pronto para receber os CSVs gerados pelo script da pasta anterior.
 
 ---
 
