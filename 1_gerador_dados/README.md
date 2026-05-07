@@ -6,7 +6,7 @@ Script Python que gera uma base de dados falsa simulando o funcionamento de uma 
 
 ## Por que dados sintéticos?
 
-Os dados reais de saúde utilizados na Prefeitura de Lajeado são sigilosos e protegidos por lei. Este script recria o mesmo ambiente — mesmas tabelas, mesmos códigos oficiais do Ministério da Saúde, mesmas regras de negócio — com nomes, datas e registros 100% fictícios.
+Os dados reais de saúde utilizados na Prefeitura são sigilosos e protegidos por lei. Este script recria um ambiente simulado e com algumas semelhanças apenas — mesmos códigos oficiais do Ministério da Saúde, mesmas regras de negócio — com nomes, datas e registros 100% fictícios.
 
 ---
 
